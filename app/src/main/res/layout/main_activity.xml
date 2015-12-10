@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/container">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/image1"
+            style="@style/imageview"
+            android:src="@drawable/angle"/>
+        <ImageView
+            android:id="@+id/image2"
+            style="@style/imageview"
+            android:src="@drawable/maple_leaf"/>
+        <ImageView
+            android:id="@+id/image3"
+            style="@style/imageview"
+            android:src="@drawable/seal"/>
+        <ImageView
+            android:id="@+id/image4"
+            style="@style/imageview"
+            android:src="@drawable/vegetables"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/expanded_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"
+        android:src="@drawable/angle"/>
+</FrameLayout>
